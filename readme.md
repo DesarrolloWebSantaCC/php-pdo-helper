@@ -25,6 +25,20 @@ Ya puedes empezar a utilizar las funciones de la clase.
 
 La clase incluye una serie de funciones para facilitar operaciones básicas con filas y tablas:
 
+* [`PDOHelper->checkTable()`](#pdohelper-checktable-table-table_parameters-)
+* [`PDOHelper->executeDB()`](#pdohelper-executedb-query-)
+* [`PDOHelper->get()`](#pdohelper-get-tabla-valor-columna-busqueda-)
+* [`PDOHelper->getArray()`](#pdohelper-getarray-tabla-columna--busqueda-)
+* [`PDOHelper->getSelectedArray()`](#pdohelper-getselectedarray-tabla-condiciones--orden-direccion-limit-)
+* [`PDOHelper->getRow()`](#pdohelper-getrow-tabla-id-)
+* [`PDOHelper->insert()`](#pdohelper-insert-tabla-datos-)
+* [`PDOHelper->insertEx()`](#pdohelper-insertex-tabla-datos-op--values-)
+* [`PDOHelper->update()`](#pdohelper-update-tabla-datos-id-)
+* [`PDOHelper->delete()`](#pdohelper-delete-tabla-datos-)
+* [`PDOHelper->query()`](#pdohelper-query-sql-)
+* [`PDOHelper->id()`](#pdohelper-id)
+* [`PDOHelper->msg`](#pdohelper-msg)
+
 ## `PDOHelper->checkTable( $table, $table_parameters )`
 
 Comprueba si existe la tabla y, si no existe, la crea.
